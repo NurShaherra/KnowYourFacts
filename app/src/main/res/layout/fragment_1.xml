@@ -16,7 +16,7 @@
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="196dp"
             android:text="Male ducks have an eclipse plumage similar to females that they wear after the breeding season for about a month as their new feathers grow. During that month, they are completely flightless and more vulnerable to predators. At this time, many male ducks stay in isolated, remote areas or flock together for protection in numbers.
 
 When constructing her nest, a hen will line it with soft down feathers she plucks from her own breast. This gives the eggs the best possible cushioning and insulation, and exposes the hen's skin so she can keep the eggs warm more efficiently. Other duck nesting material includes grasses, mud, twigs, leaves, reeds and other plant material." />
@@ -27,8 +27,9 @@ When constructing her nest, a hen will line it with soft down feathers she pluck
 
             <com.jsibbold.zoomage.ZoomageView
                 android:id="@+id/myZoomageView"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="117dp"
                 android:src="@drawable/duck1"
                 app:zoomage_animateOnReset="true"
                 app:zoomage_autoCenter="true"
@@ -40,8 +41,7 @@ When constructing her nest, a hen will line it with soft down feathers she pluck
                 app:zoomage_zoomable="true"
                 android:layout_above="@+id/btnChangeClr"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_marginBottom="13dp" />
+                android:layout_alignParentStart="true" />
 
             <Button
                 android:id="@+id/btnChangeClr"

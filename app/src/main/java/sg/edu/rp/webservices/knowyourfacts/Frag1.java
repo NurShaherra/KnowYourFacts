@@ -18,7 +18,7 @@ import java.util.Random;
  * A simple {@link Fragment} subclass.
  */
 public class Frag1 extends Fragment {
-    Button btnColor, btnReadLater;
+    Button btnColor;
 
 
 
@@ -49,12 +49,6 @@ public class Frag1 extends Fragment {
             }
         });
 
-        btnReadLater.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                AlarmManager alarm =
-            }
-        });
 
         return view;
 

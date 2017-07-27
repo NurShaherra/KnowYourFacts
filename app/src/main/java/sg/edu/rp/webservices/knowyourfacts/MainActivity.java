@@ -57,12 +57,13 @@ public class MainActivity extends AppCompatActivity {
             }
             return true;
 
-        } else if (id == R.id.menu_next){
+        } else if (id == R.id.menu_next) {
             int max = vPager.getChildCount();
-            if (vPager.getCurrentItem() < max-1){
+            if (vPager.getCurrentItem() < max - 1) {
                 int nextPage = vPager.getCurrentItem() + 1;
                 vPager.setCurrentItem(nextPage, true);
             }
+
         } else {
             Random r = new Random();
             int page = r.nextInt(vPager.getChildCount());

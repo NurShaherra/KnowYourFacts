@@ -50,8 +50,6 @@ public class Frag2 extends Fragment {
             }
         });
 
-//        String imageUrl = "http://square.github.io/picasso/static/sample.png";
-//        Picasso.with(Frag2.this).load(imageUrl).into(img);
 
         return view;
 
