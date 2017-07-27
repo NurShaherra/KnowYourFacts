@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/holo_green_light"
+    tools:context="sg.edu.rp.webservices.knowyourfacts.Frag2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextVA baby duck is called a duckling, and an adult male is a drake. An adult female duck is called a hen or a duck, and a group of ducks can be called a raft, team or paddling. Generic terms like bird, chick and flock also apply to ducks.
+
+All ducks have highly waterproof feathers as a result of an intricate feather structure and a waxy coating that is spread on each feather while preening. A duck's feathers are so waterproof that even when the duck dives underwater, its downy underlayer of feathers right next to the skin will stay completely dry. The uropygial gland at the base of the tail produces that waxy oil that coats feathers so well, and many other birds also have the same gland." />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnChangeClr"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:text="Change Color"
+                android:layout_alignTop="@+id/btnRead"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/btnRead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="17dp"
+                android:text="Read later"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="12dp"
+                android:layout_marginEnd="12dp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
